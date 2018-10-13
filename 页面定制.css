@@ -11,7 +11,7 @@
         margin-top:40px;
     }
     #main{
-        width: 40%;
+        width: 60%;
         background-color: white;
         /*max-width: 700px;*/
     }
@@ -71,9 +71,9 @@
     #author_profile_follow{
         display: none;
     }
-    #comment_form_container{
-        display: none;
-    }
+    /* #comment_form_container{ */
+     /*   display: none; */
+    /*}*/
 
     /** 自定义样式 */
     /* 加载条 */
@@ -257,7 +257,7 @@
         position: fixed;
         z-index: 999;
         top: 100px;
-        left: 69%;
+        left: 79%;
         display: none;
         text-align: left;
         border-left: 1px solid #ddd;
@@ -349,6 +349,10 @@
     }
     .post-bottom-bar .bottom-bar-item.bottom-bar-qrcode a {
         background-color: #5f5f5f;
+        color: #fff;
+    }
+    .post-bottom-bar .bottom-bar-item.bottom-bar-wechat a {
+        background-color: #62b900;
         color: #fff;
     }
     .bottom-bar-item a:hover{
@@ -444,3 +448,46 @@
     *, :after, :before {
         box-sizing: border-box;
     }
+
+
+/* 推荐及反对 */
+#div_digg {
+    padding: 5px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0px;
+    right: 0;
+    border: 0px solid #D9DBE1;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    width: 46px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid red;
+}
+.diggit {
+ background-image: url("//images.cnblogs.com/cnblogs_com/cnsevennight/666322/o_diggit.png");
+ padding-top:18px
+}
+
+/* ignore反对 */
+.buryit {
+    display: none;
+}
+
+/*推荐框 悬浮 */
+#div_digg {
+    position: fixed;
+    bottom: 10px;
+    width: 70px;
+    right: 355px;
+    border: 0px solid #edd7b2;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px !important;
+    box-shadow: 0 0 0 0px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}

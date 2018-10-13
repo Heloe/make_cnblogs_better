@@ -412,7 +412,7 @@
     }
     /* code加上行数 */
     .cnblogs-markdown .syntaxhighlighter table td.code {
-      width:95% !important; 
+      width:95% !important;
     }
 
     .cnblogs-markdown .syntaxhighlighter code {
@@ -490,4 +490,26 @@
     background-color: #fff;
     border-radius: 5px 5px 5px 5px !important;
     box-shadow: 0 0 0 0px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}
+
+/*签名*/
+#AllanboltSignature
+{
+border-top: #e0e0e0 1px dashed;
+border-right: #e0e0e0 1px dashed;
+border-bottom: #e0e0e0 1px dashed;
+border-left: #e0e0e0 1px dashed;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 120px;
+font-family: 微软雅黑;
+font-size:11px;
+background: url(http://images.cnblogs.com/cnblogs_com/zqb-all/1316550/o_wx_qr_100.png) #e5f1f4 no-repeat 1% 50%;
+
+}
+
+#AllanboltSignature div
+{
+line-height: 25px;
 }

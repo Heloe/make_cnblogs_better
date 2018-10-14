@@ -8,16 +8,27 @@
 
 4. 在博客皮肤选项卡中将博客皮肤设置为： [BlueSky](http://www.cnblogs.com/SkinUser.aspx?SkinName=BlueSky)
 
-5. 将 [页面定制.css](https://github.com/Summertime-Wu/make_cnblogs_better/blob/master/%E9%A1%B5%E9%9D%A2%E5%AE%9A%E5%88%B6.css) 复制到 `页面定制CSS代码` 代码框内
+5. 将 [页面定制.css](https://github.com/zqb-all/make_cnblogs_better/blob/master/%E9%A1%B5%E9%9D%A2%E5%AE%9A%E5%88%B6.css) 复制到 `页面定制CSS代码` 代码框内
 
-6. 将 [页首.html](https://github.com/Summertime-Wu/make_cnblogs_better/blob/master/%E9%A1%B5%E5%B0%BE.html) 复制到 `页首Html代码` 代码框内
+6. 将 [页首.html](https://github.com/zqb-all/make_cnblogs_better/blob/master/%E9%A1%B5%E5%B0%BE.html) 复制到 `页首Html代码` 代码框内
 
-7. 将 [页尾.html](https://github.com/Summertime-Wu/make_cnblogs_better/blob/master/%E9%A1%B5%E5%B0%BE.html) 复制到 `页脚Html代码` 代码框内
+7. 将 [页尾.html](https://github.com/zqb-all/make_cnblogs_better/blob/master/%E9%A1%B5%E5%B0%BE.html) 复制到 `页脚Html代码` 代码框内
 
 8. 保存，即可食用
 
-## 博客示例
 
+
+## 博客示例
+------------------------>>> [QB杂货铺](https://www.cnblogs.com/zqb-all)
+
+## 修改部分
+* 增大了宽度，个人觉得原本的宽度太小了，影响阅读
+* 修改了推荐按钮，参考这个[博客](https://www.cnblogs.com/X-knight/p/9159804.html#autoid-8-0-0)
+* 对顶部导航和底部导航做了些调整
+* 打开了评论区
+* 增加签名，参考这个[博客](https://www.cnblogs.com/allanbolt/archive/2009/12/30/1635665.html)
+
+## 原博客示例
 ------------------------>>> [夏日浅笑、](https://www.cnblogs.com/summertime-wu/p/9356736.html)
 
 **修改前：**
@@ -28,7 +39,7 @@
 
 ![](https://images2018.cnblogs.com/blog/1138447/201807/1138447-20180723202943226-1722300911.png)
 
-## 实现过程
+## 原博客实现过程
 
 ### 1、顶部加载条
 
@@ -270,3 +281,7 @@ eummm......看起来比较糟糕，但是能跑！！
 [chakhsu](https://github.com/chakhsu/pinghsu)
 
 [gzdaijie](https://github.com/gzdaijie/cnblogs_markdown_optimize)
+
+[X-knight](https://www.cnblogs.com/X-knight/p/9159804.html#autoid-8-0-0)
+
+[allanbolt](https://www.cnblogs.com/allanbolt/archive/2009/12/30/1635665.html)
